@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>ATTLEBORO HIGH SCHOOL</h1>
+        <h2>New Student Registration Form</h2>
+        <p class="instruction">PLEASE PRINT LEGIBLY</p>
+
+        <form>
+            <fieldset>
+                <legend>Student Information:</legend>
+                <label for="student-last-name">Student’s Last Name:</label>
+                <input type="text" id="student-last-name" name="student-last-name"><br>
+
+                <label for="student-first-name">First:</label>
+                <input type="text" id="student-first-name" name="student-first-name">
+
+                <label for="student-middle-name">Middle:</label>
+                <input type="text" id="student-middle-name" name="student-middle-name"><br>
+
+                <label for="home-address">*Home Address:</label>
+                <input type="text" id="home-address" name="home-address">
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state">
+
+                <label for="zip-code">Zip Code:</label>
+                <input type="text" id="zip-code" name="zip-code"><br>
+
+                <label for="student-email">Student email address:</label>
+                <input type="email" id="student-email" name="student-email"><br>
+
+                <label for="home-phone">Home Phone:</label>
+                <input type="tel" id="home-phone" name="home-phone">
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br>
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">M</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">F</label><br>
+
+                <label for="place-of-birth">Place of Birth / City & State:</label>
+                <input type="text" id="place-of-birth" name="place-of-birth"><br>
+
+                <label for="country">Country (If not USA):</label>
+                <input type="text" id="country" name="country">
+            </fieldset>
+
+            <fieldset>
+                <legend>Parent/Guardian Information:</legend>
+                <!-- Mother/Guardian Information -->
+                <label for="mother-last-name">Mother/Guardian Last Name:</label>
+                <input type="text" id="mother-last-name" name="mother-last-name">
+
+                <label for="mother-first-name">First Name:</label>
+                <input type="text" id="mother-first-name" name="mother-first-name"><br>
+
+                <label for="mother-address">Address (if different from student):</label>
+                <input type="text" id="mother-address" name="mother-address"><br>
+
+                <label for="mother-home-phone">Home Phone:</label>
+                <input type="tel" id="mother-home-phone" name="mother-home-phone">
+
+                <label for="mother-cell-phone">Cell Phone:</label>
+                <input type="tel" id="mother-cell-phone" name="mother-cell-phone"><br>
+
+                <label for="mother-email">Mother’s email address:</label>
+                <input type="email" id="mother-email" name="mother-email"><br>
+
+                <label for="mother-employment">Place of Employment:</label>
+                <input type="text" id="mother-employment" name="mother-employment">
+
+                <label for="mother-work-phone">Work Phone:</label>
+                <input type="tel" id="mother-work-phone" name="mother-work-phone"><br>
+
+                <!-- Father/Guardian Information -->
+                <label for="father-last-name">Father/Guardian Last Name:</label>
+                <input type="text" id="father-last-name" name="father-last-name">
+
+                <label for="father-first-name">First Name:</label>
+                <input type="text" id="father-first-name" name="father-first-name"><br>
+
+                <label for="father-address">Address (if different from student):</label>
+                <input type="text" id="father-address" name="father-address"><br>
+
+                <label for="father-home-phone">Home Phone:</label>
+                <input type="tel" id="father-home-phone" name="father-home-phone">
+
+                <label for="father-cell-phone">Cell Phone:</label>
+                <input type="tel" id="father-cell-phone" name="father-cell-phone"><br>
+
+                <label for="father-email">Father’s email address:</label>
+                <input type="email" id="father-email" name="father-email"><br>
+
+                <label for="father-employment">Place of Employment:</label>
+                <input type="text" id="father-employment" name="father-employment">
+
+                <label for="father-work-phone">Work Phone:</label>
+                <input type="tel" id="father-work-phone" name="father-work-phone">
+            </fieldset>
+
+            <fieldset>
+                <legend>Automated Message Preferences:</legend>
+                <label for="automated-phone">Best Phone Number for automated call:</label>
+                <input type="tel" id="automated-phone" name="automated-phone"><br>
+
+                <label for="automated-email">Best email for automated email:</label>
+                <input type="email" id="automated-email" name="automated-email">
+            </fieldset>
+
+            <fieldset>
+                <legend>Military Family Status:</legend>
+                <label>
+                    <input type="checkbox" name="military-status" value="active-duty">
+                    An active duty member of the Uniformed Services, National Guard, or Reserves on active duty orders
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="military-status" value="medically-discharged">
+                    A member or veteran medically discharged or retired within one year
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="military-status" value="died-on-active-duty">
+                    A member of the Uniformed Services, National Guard, or Reserves who died on active duty
+                </label>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
